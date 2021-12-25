@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NonRoleFT profile</title>
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+
+<body>
+    <nav class="navbar"></nav>
+    <main class="content">
+        <div class="profile_description">
+            <label for="Big_picture_input">
+                <div class="big_profile_pic"></div>
+            </label>
+            <input type="file" name="Big_profile_picture" id="Big_picture_input" style="visibility:hidden;">
+            <label for="profile_pic">
+                <div class="profile_pic"></div>
+            </label>
+            <input type="file" name="profile_pic" id="profile_pic" style="visibility: hidden;">
+            <p class="username">Billy Jin #14512</p>
+            <p class="join_date">Joined: Today</p>
+        </div>
+
+        <div class="sidebar">
+            <form action="js/sort.js" method="get" class="sort_form">
+                <div>
+                    <div>
+                        <input type="radio" name="Gender" id="Male">
+                        <label for="Male">Male</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="Gender" id="Female">
+                        <label for="Female">Female</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="Gender" id="Other">
+
+                        <label for="Other">Other</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="js/nav.js"></script>
+</body>
+
+</html>

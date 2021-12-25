@@ -1,0 +1,65 @@
+@import 'nav.css';
+
+:root {
+    --bg-color: #191919;
+    --typewriterSpeed: 4s;
+    --typewriterCharacters: 40;
+  }
+
+.typewriter {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    min-height: 70vh;
+}
+
+.typewrite_text {
+    font-size: clamp(1rem, 3vw + 1rem, 4rem);
+    position: relative;
+    font-family: "Scource Code Pro", monospace;
+    color: white;
+    position: relative;
+    font-weight: lighter;
+    width: max-content;
+}
+
+.typewrite_text::before,
+.typewrite_text::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.typewrite_text::before {
+    background-color: var(--bg-color);
+    animation: typewriter var(--typewriterSpeed) 
+        steps(var(--typewriterCharacters)) 1s forwards;
+}
+
+.typewrite_text::after {
+    width: 0.25em;
+    background: black;
+    animation: typewriter var(--typewriterSpeed)
+    steps(var(--typewriterCharacters)) 1s forwards,
+    blink 750ms steps(var(--typewriterCharacters)) infinite;
+}
+
+.some_more {
+    height: 300vh;
+}
+
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}
+@keyframes blink {
+    to {
+      background: transparent;
+    }
+  }

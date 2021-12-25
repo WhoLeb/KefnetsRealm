@@ -1,0 +1,95 @@
+@import 'nav.css';
+main {
+    width: 100%;
+    height: 35%;
+}
+
+.profile_description {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(80, 80, 80);
+}
+
+.big_profile_pic {
+    width: 100%;
+    height: 200px;
+    background-image: url(https://images.unsplash.com/photo-1560421683-2587f1591d30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmVhdXRpZnVsJTIwbGFuZHNjYXBlfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -200px;
+    margin-bottom: -20px;
+}
+
+.big_profile_pic:hover {
+    background: url(http://cdn.onlinewebfonts.com/svg/img_16836.png) center center no-repeat;
+    background-size: 7%;
+}
+
+.profile_pic {
+    width: 150px;
+    height: 150px;
+    background: url(https://cdn.onlinewebfonts.com/svg/img_162386.png)center center no-repeat;
+    border-radius: 50%;
+    outline: 5px solid rgb(70, 200, 243);
+    outline-offset: 2px;
+    margin: -5% 45% 5%;
+}
+
+.profile_pic:hover {
+    background: url(http://cdn.onlinewebfonts.com/svg/img_16836.png) center center no-repeat;
+    background-size: 50%;
+    filter: invert(1);
+}
+
+.username {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.7em;
+    color: white;
+    font-family: sans-serif;
+}
+
+.join_date {
+    color: rgb(123, 123, 123);
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 7px;
+}
+
+.sidebar {
+    width: 20%;
+    min-width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 20%;
+    left: 0;
+    border-right: 1px solid rgba(100, 100, 100, 0.234);
+    border-radius: 20px;
+    background-color: #292929;
+    margin-right: 2.5%;
+    margin-left: 3px;
+    padding: 10px;
+}
+
+.sort_form {
+    background-color: inherit;
+}
+
+.sort_form div {
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+.sort_form div div {
+    margin: 5px;
+}
+
+.sort_form div div label {
+    background-color: inherit;
+    color: white;
+}
