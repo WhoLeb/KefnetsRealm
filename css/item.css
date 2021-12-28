@@ -1,0 +1,21 @@
+@import 'nav.css';
+
+main {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.image-box {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid white; 
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 90%;
+    margin: 30px;
+}

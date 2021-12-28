@@ -19,7 +19,6 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 -200px;
-    margin-bottom: -20px;
 }
 
 .big_profile_pic:hover {
@@ -27,14 +26,19 @@ main {
     background-size: 7%;
 }
 
+.profile-box {
+    background-color: transparent;
+    margin-top: -5%;
+    display: flex;
+    justify-content: center;
+}
+
 .profile_pic {
     width: 150px;
     height: 150px;
-    background: url(https://cdn.onlinewebfonts.com/svg/img_162386.png)center center no-repeat;
     border-radius: 50%;
     outline: 5px solid rgb(70, 200, 243);
     outline-offset: 2px;
-    margin: -5% 45% 5%;
 }
 
 .profile_pic:hover {
