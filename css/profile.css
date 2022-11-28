@@ -1,4 +1,6 @@
 @import 'nav.css';
+@import 'sidebar.css';
+@import 'item.css';
 main {
     width: 100%;
     height: 35%;
@@ -61,39 +63,26 @@ main {
     font-weight: lighter;
     margin-top: 7px;
 }
-
-.sidebar {
-    width: 20%;
-    min-width: 200px;
-    height: 100%;
+.contents{
     display: flex;
-    flex-direction: column;
-    position: sticky;
-    top: 20%;
-    left: 0;
-    border-right: 1px solid rgba(100, 100, 100, 0.234);
-    border-radius: 20px;
-    background-color: #292929;
-    margin-right: 2.5%;
-    margin-left: 3px;
-    padding: 10px;
 }
 
-.sort_form {
-    background-color: inherit;
-}
-
-.sort_form div {
-    background-color: inherit;
+.items_container {
+    width: 80%;
+    height: 40%;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-between;
 }
 
-.sort_form div div {
-    margin: 5px;
+.edit {
+    text-align: center;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: rgb(128, 126, 126);
 }
 
-.sort_form div div label {
-    background-color: inherit;
+.edit:hover {
     color: white;
 }

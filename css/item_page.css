@@ -1,0 +1,32 @@
+@import 'nav.css';
+
+.owners {
+    width: 100%;
+    border-color: white;
+    border-width: 1px;
+}
+
+.item {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.item:hover {
+    border-width: 3px;
+    border-color: white;
+}
+
+.image-box {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid white; 
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 100%;
+    /* margin: 30px; */
+}

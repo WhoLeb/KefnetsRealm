@@ -1,0 +1,35 @@
+@import 'nav.css';
+
+.nav {
+    width: 100%;
+}
+
+body {
+    background: #191919;
+    color: white;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #505050;
+}
+
+.profile-button {
+    background: #505050;
+    box-shadow: none;
+    border: none;
+}
+
+.profile-button:hover {
+    background: #363636;
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none;
+}
+
+.back:hover {
+    color: #505050;
+    cursor: pointer;
+}

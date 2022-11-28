@@ -1,0 +1,41 @@
+.sidebar {
+    width: 20%;
+    min-width: 200px;
+    height: 80vh;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 20%;
+    left: 0;
+    background-color: #292929;
+    margin-right: 2.5%; 
+    padding: 10px;
+}
+
+.sidebar a {
+    background-color: #292929;
+    width: 80%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.sidebar a .sidebar_option {
+    border: 2px solid #191919;
+    border-radius: 10px;
+    padding: 20px;
+    text-transform: capitalize;    
+    text-align: center;
+    background-color: #292929;
+    transition: 0.5s;
+}
+
+.sidebar a:hover .sidebar_option {
+    border-radius: 10px;
+    background-color: rgb(108, 108, 108);
+    color:rgb(18, 17, 17);
+    transition: .25s;
+}

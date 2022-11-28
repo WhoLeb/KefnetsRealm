@@ -1,21 +1,88 @@
-@import 'nav.css';
-
-main {
-    width: 95%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 30% 70%;
-}
-
-.image-box {
-    width: 100%;
+.item {
+    width: 20%;
+    min-width: 200px;
+    height: 40%;
+    min-height: 350px;
+    display: block;
+    background-color: rgb(36, 35, 34);
+    margin: 2%;
+    padding: 10px;
     border-radius: 10px;
-    border: 1px solid white; 
-    display: flex;
-    justify-content: center;
+    /* border: 2px solid rgba(46, 46, 46, 0.57) */
 }
 
-.image {
-    width: 90%;
-    margin: 30px;
+.item-div {
+    background-color: inherit;
+}
+
+.owners {
+    margin-left: 10px;
+    background-color: inherit;
+    margin-bottom: 5px;
+}
+
+.owners a {
+    width: 10%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: inherit;
+}
+
+.owners a img{
+    width: 10%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: inherit;
+    outline: 3px solid white;
+    outline-offset: 3px;
+}
+
+.owners a:nth-child(2) img{
+    margin-left: -10px;
+    filter: invert(0.2);
+}
+
+.owners a:last-child img {
+    margin-left: -10px;
+    filter: invert(1);
+}
+
+.picture-box {
+    background-color: inherit;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.picture {
+    background-color: inherit;
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.picture-box img {
+    background-color: inherit;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.name {
+    background-color: inherit;
+    color: white;
+    padding: 4%;
+    font-weight: bold;
+}
+
+.price {
+    background-color:  inherit;
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    font-weight:bolder;
+    padding: 4%;
+    color: white;
 }

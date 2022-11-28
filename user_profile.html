@@ -24,30 +24,32 @@
             </label>
             <input type="file" name="profile_pic" id="profile_pic" style="visibility: hidden;">
             <p class="username">Billy Jin #14512</p>
-            <p class="join_date">Joined: Today</p>
+            <p class="join_date">Присоединился: Сегодня</p>
+            <a href="edit_profile.html" class="edit">Редактировать профиль</a>
         </div>
 
-        <div class="sidebar">
-            <form action="js/sort.js" method="get" class="sort_form">
-                <div>
-                    <div>
-                        <input type="radio" name="Gender" id="Male">
-                        <label for="Male">Male</label>
-                    </div>
-                    <div>
-                        <input type="radio" name="Gender" id="Female">
-                        <label for="Female">Female</label>
-                    </div>
-                    <div>
-                        <input type="radio" name="Gender" id="Other">
-
-                        <label for="Other">Other</label>
-                    </div>
-                </div>
-            </form>
+        <div class="contents">
+            <div class="sidebar">
+                <a href="#">
+                    <div class="sidebar_option">Фильтры</div>
+                </a>
+                <a href="#">
+                    <div class="sidebar_option">Мои персонажи</div>
+                </a>
+                <a href="#">
+                    <div class="sidebar_option">Мои кампании</div>
+                </a>
+            </div>
+            <div class="items_container">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+            </div>
         </div>
     </main>
     <script src="js/nav.js"></script>
+    <script src="js/item.js"></script>
 </body>
 
 </html>

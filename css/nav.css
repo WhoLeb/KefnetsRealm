@@ -17,7 +17,7 @@
 }
 
 .nav{
-    padding: 10px 10vw;
+    padding: 10px 10vh;
     display: flex;
     justify-content: space-between;
 }
@@ -69,6 +69,10 @@
     color: #a5a5a5;
 }
 
+.search-btn:hover {
+    background-color: #303030;
+}
+
 .links-container {
     width: 100%;
     display:flex;
@@ -90,5 +94,20 @@
 }
 
 .link:hover {
+    color: #7c7c7c;
     opacity: 1;
+}
+
+.account {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background: url('./img/default_profile.png');
+}
+
+.account img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }

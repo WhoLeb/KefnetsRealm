@@ -7,17 +7,20 @@ const createNav = () => {
             </a>
             <div class="nav-items">
                 <div class="search">
-                    <input type="text" class="search-box" placeholder="search for character or campaign">
-                    <button class="search-btn">search</button>
+                    <input type="text" class="search-box" placeholder="Поиск по сайту">
+                    <button class="search-btn">Поиск</button>
                 </div>
-                <!-- <a href="#"></a> -->
+                <div class="account" onclick="location.href='user_profile.html'">
+                    <img src="img/default_profile.png">
+                </div>
             </div>
         </div>
         <ul class="links-container">
-            <li class="link-item"><a href="index.html" class="link">shop</a></li>
-            <li class="link-item"><a href="user_profile.html" class="link">My profile</a></li>
-            <li class="link-item"><a href="about.html" class="link">about</a></li>
+            <li class="link-item"><a href="user_profile.html" class="link">Мой профиль</a></li>
+            <li class="link-item"><a href="index.html" class="link">Торговая площадка</a></li>
+            <li class="link-item"><a href="about.html" class="link">О проекте</a></li>
         </ul>
+        <div class="empty"></div>
     `;
 }
 
