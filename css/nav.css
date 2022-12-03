@@ -66,6 +66,7 @@
 }
 
 .search-box::placeholder {
+    text-align: left;
     color: #a5a5a5;
 }
 
