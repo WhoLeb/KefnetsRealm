@@ -1,32 +1,208 @@
 @import 'nav.css';
 
-.owners {
-    width: 100%;
-    border-color: white;
-    border-width: 1px;
+*{
+    text-align: center;
 }
 
-.item {
-    width: 95%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 30% 70%;
+p {
+    background-color: transparent;
 }
 
-.item:hover {
-    border-width: 3px;
-    border-color: white;
-}
-
-.image-box {
-    width: 100%;
-    border-radius: 10px;
-    border: 1px solid white; 
+#status {
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 5%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.image {
+#lvl {
+    width: 23%;
+    height: 100px;
+    background-color: #444242;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#name {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#name:hover{
+    background-color: #5e5959;
+}
+
+#lvl > * {
+    height: 100%;
+    background-color: #444242;
+}
+
+#level {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     width: 100%;
-    /* margin: 30px; */
+    display: grid;
+    height: 100%;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+#level p:nth-child(2){
+    font-size: 2em;
+    margin: auto;
+}
+
+#health {
+    width: 23%;
+    height: 100px;
+    background-color: #444242;
+    border-radius: 10px;
+}
+
+#conditions {
+    width: 23%;
+    height: 100px;
+    background-color: #444242;
+    border-radius: 10px;
+}
+
+#special-points {
+    width: 23%;
+    height: 100px;
+    background-color: #444242;
+    border-radius: 10px;
+}
+
+#main-stats {
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#speed {
+    width: 11.5%;
+    height: 100px;
+    background-color: #444242;
+    border-radius: 10px;
+}
+
+#perception {
+    width: 11.5%;
+    height: 100px;
+    background-color: #444242;
+    border-radius: 10px;
+}
+
+#stats {
+    width: 46%;
+    height: 100px;
+    background-color: #444242;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+#str {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#stats > * {
+    padding-top: 5%;
+    background-color: #444242;
+    text-align: center;
+}
+
+#cha {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#stats > *:hover{
+    background-color: #5e5959;
+    height: 100%;
+}
+
+#saving-throws-block {
+    width: 23%;
+    background-color: #444242;
+    border-radius: 10px;
+}
+
+#stgen{
+    background-color: transparent;
+    text-align: center;
+    height: 20px;
+}
+
+#saving-throws{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 80px;
+    background-color: transparent;
+}
+
+#fort {
+    border-bottom-left-radius: 10px;
+}
+
+#saving-throws > * {
+    background-color: transparent;
+}
+
+#will {
+    border-bottom-right-radius: 10px;
+}
+
+#saving-throws > *:hover{
+    background-color: #5e5959;
+}
+
+#others {
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#expertise {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+#AC {
+    height: 90px;
+    background-color: #444242;
+    border-radius: 10px;
+}
+
+#profs {
+    margin-top: 20px;
+    background-color: #444242;
+    height: 400px;
+    border-radius: 10px;
+}
+
+#skills {
+    background-color: #444242;
+    width: 25%;
+    height: 510px;
+    border-radius: 10px;
+}
+
+#skills > p {
+    height: 30px;
+}
+
+#other {
+    width: 50%;
+    height: 510px;
+    background-color: #444242;
+    border-radius: 10px;
 }

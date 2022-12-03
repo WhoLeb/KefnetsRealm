@@ -5,14 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="css/item.css">
+    <link rel="stylesheet" href="css/item_page.css">
 </head>
 <body>
     <nav class="navbar"></nav>
     <script src="js/nav.js"></script>
     <main>
-        <div class="image-box">
-            <img src="img/default_profile.png" alt="" class="image">
+        <div id="status">
+            <div  id="lvl">
+                <div id="name">Имя</div>
+                <div id="level">
+                    <p>Уровень</p>   
+                    <p>50</p>
+                    <p>999/1000 xp</p>            
+                </div>
+            </div>
+            <div id="health">
+
+            </div>
+            <div id="conditions"></div>
+            <div id="special-points"></div>
+        </div>
+        <div id="main-stats">
+            <div id="speed"></div>
+            <div id="perception"></div>
+            <div id="stats">
+                <div id="str">Сила</div>
+                <div id="dex">Ловкость</div>
+                <div id="con">Телосложение</div>
+                <div id="int">Интеллект</div>
+                <div id="wis">Воля</div>
+                <div id="cha">Харизма</div>
+            </div>
+            <div id="saving-throws-block">
+                <div id="stgen">
+                    Спасброски
+                </div> 
+                <div id="saving-throws">
+                    <div id="fort"></div>
+                    <div id="ref"></div>
+                    <div id="will"></div>
+                </div>
+            </div>
+        </div>
+        <div id="others">
+            <div id="expertise">
+                <div id="AC"></div>
+                <div id="profs"></div>
+            </div>
+            <div id="skills">
+                <p>Навыки</p>
+                <iframe src="skill-frame.html" frameborder="0" width="90%" height="475px"></iframe>
+            </div>
+            <div id="other">
+                <p class="actions">Действия</p>
+                <iframe src="actions-frame.html" frameborder="0" width="90%" height="475px"></iframe>
+            </div>
         </div>
     </main>
 </body>

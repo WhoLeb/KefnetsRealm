@@ -2,7 +2,7 @@ const createItem = () => {
     let nav = document.querySelectorAll('.item');
     nav.forEach(element => {
         element.innerHTML = `\
-            <div class="item-div" onclick="location.href='item.html'">\
+            <div class="item-div" onclick="parent.location='item.html'">\
                 <div class="owners">\
                     <a href="#"><img src="img/logo.png" alt="token collection" class="collection" title="collection"></a>\
                     <a href="#"><img src="img/logo.png" alt="token owner" class="owner" title="owner"></a>\
